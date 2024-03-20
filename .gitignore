@@ -13,3 +13,7 @@
 .liquidrc
 
 /old2
+
+Gemfile
+*.js
+*.json
