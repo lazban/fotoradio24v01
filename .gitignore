@@ -13,6 +13,8 @@
 .liquidrc
 
 Gemfile
-*.js
-*.json
+gulpfile.js
+package.json
+search.json
+
 /_site
