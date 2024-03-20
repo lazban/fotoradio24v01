@@ -13,6 +13,7 @@
 .liquidrc
 
 Gemfile
+Gemfile.lock
 gulpfile.js
 package.json
 search.json
