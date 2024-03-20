@@ -140,7 +140,7 @@ La playlist è: _Light & sounds_, _Youth in rage_, _Wipe the Slate Clean_, _Trav
 
 ### Fair use
 
-In questo sito si seguono le regole del **Fair use** vigenti in America per l'utilizzo di immagini di proprietà di terzi. Spiego meglio [qui](/static_page/fair_use/)
+In questo sito si seguono le regole del **Fair use** vigenti in America per l'utilizzo di immagini di proprietà di terzi. Spiego meglio [qui](../../fair_use.html)
 
 
 - - -
