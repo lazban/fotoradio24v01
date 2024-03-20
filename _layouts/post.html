@@ -18,7 +18,7 @@ layout: default
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     {% include schema-meta.html %}
     <div class="page-image">
-      <div class="cover-image" style="background: url('{{ page.img }}') center no-repeat; background-size: cover;"></div>
+      <div class="cover-image" style="background: url('{{ relativebase }}assets/img/{{ page.img }}') center no-repeat; background-size: cover;"></div>
     </div>
     <div class="wrapper">
       <div class="page-content">
@@ -32,7 +32,10 @@ layout: default
         {{page.content | markdownify}}
         {% include sidebar.html context="post" class="inline" id="post-end" %}
         <div class="separator"></div>
+        {% include author-box.html %}
         {% include recent-post.html %}
+        {% include newsletter.html %}
+        {% include comments.html %}
       </div>
     </div> <!-- End Wrapper -->
   </article>
