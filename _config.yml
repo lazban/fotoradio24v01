@@ -3,7 +3,7 @@ title: Fotoradio
 description: 'un podcast che parla di fotografie' # this means to ignore newlines until "baseurl:"
 permalink: '/:year/:month/:title'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lazban.github.io/fotoradio23v07" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ws24.fotoradio.info" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/branding/fotoradio_logo2.svg"
 logo-icon: "/assets/img/branding/fotoradio_ico.svg"
 logo-icon-SEO: "/assets/img/branding/fotoradio_ico.png" # must be a non SVG file
