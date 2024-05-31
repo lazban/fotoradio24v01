@@ -3,16 +3,16 @@
 /* Main Color palette and fonts */
 
 html {
-  --accent:       #d65461;    /* accent  barra laterale citazione  ehover    */
-  --accent-dark:  #2c3f87;    /* titoli interni e simbolo di condivisione   */
+  --accent:       #77966D;    /* d65461 accent  barra laterale citazione  ehover    */
+  --accent-dark:  #ffd983;    /* 2c3f87 titoli interni e simbolo di condivisione   */
   --main:         #bfd1e3;    /* main color solo icone in alto */
   --main-dim:     #bfd1e3;    /* dimmed version of main color */
-  --text:         #cccde2;
-  --grey1:        #bfd1e3;    /* colore nei box laterali sx */
-  --grey2:        #2c3f87;    /* data sotto il titolo */
+  --text:         #ffffff;    /* cccde2 */
+  --grey1:        #000000;    /* bfd1e3 colore nei box laterali sx */
+  --grey2:        #77966D;    /* 2c3f87 data sotto il titolo */
   --grey3:        #141421;    /* selettore giorno notte laterale */
   --grey4:        #ffd983;    /* hover nella home; linea separatrice nel search  */
-  --grey5:        #2c3f87;    /* background box a sx e highligh box a dx */
+  --grey5:        #ffd983;    /* 2c3f87 background box a sx e highligh box a dx */
   --background:   #1d1e20;
   --shadow:       rgba(32,30,30,.3);
   --github:       #333;
@@ -816,9 +816,10 @@ svg.menu-icon-house {
   top: 0;
   right: 0;
 }
-/* = = = = = = = = = = Post-Card (homepage) = = = = = = = = = = */
+/* = = = = = = = = = = Post-Card (homepage) = = = = = = = = = =
+il margine era a 50px in card-box e l'ho messo a zero */
 .post-card-box {
-  margin: 50px 0 15px;
+  margin: 0px 0 15px;
   padding: 0;
 }
 .post-card-box li {
