@@ -913,6 +913,15 @@ il margine era a 50px in card-box e l'ho messo a zero */
   float: right;
   color: var(--text);
 }
+.pagination .previous a{
+  float: left;
+  color: var(--text);
+}
+
+.pagination .next a{
+  float: right;
+  color: var(--text);
+}
 
 .pagination .previous, .pagination .next {
   font-family: var(--font2);
