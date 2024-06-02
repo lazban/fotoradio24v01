@@ -4,7 +4,9 @@
 
 html {
   --accent:       #2c3f87;    /* d65461 accent  barra laterale citazione  ehover    */
+  --link:         #fb3640;    /* solo link */
   --accent-dark:  #ffd983;    /* 2c3f87 titoli interni e simbolo di condivisione   */
+  --link-dark:    #fb3640;    /* 2c3f87 titoli interni e simbolo di condivisione   */
   --main:         #bfd1e3;    /* main color solo icone in alto */
   --main-dim:     #bfd1e3;    /* dimmed version of main color */
   --text:         #ffffff;    /* cccde2 */
@@ -29,7 +31,9 @@ html {
 
 html[data-theme="dark"]  {
   --accent:       #2c3f87;    /* accent     */
+  --link:         #fb3640;    /* solo link */
   --accent-dark:  #13262f;    /* accent 2   */
+  --link-dark:    #fb3640;    /* 2c3f87 titoli interni e simbolo di condivisione   */
   --main:         #43464A;    /* main color */
   --main-dim:     #43464A;    /* dimmed version of main color */
   --text:         #111111;
@@ -441,7 +445,7 @@ a {
     transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 }
 a:hover{
-    color:var(--accent)
+    color:var(--link)
 }
 table {
       border-left: 6px solid var(--accent);
@@ -593,7 +597,7 @@ svg {
   text-transform: uppercase;
   font-size: 27px;
   font-weight: var(--font2-light);
-  color: var(--accent-dark);
+  color: var(--link-dark);
 }
 .main-nav {
   position: fixed;
@@ -626,7 +630,7 @@ svg {
 }
 .main-nav ul li a:hover {
   opacity: .8;
-  color: var(--accent-dark);
+  color: var(--link-dark);
 }
 .menu-icon-container {
   width: 25%;
@@ -789,12 +793,12 @@ svg.menu-icon-house {
 .results-search li a {
   font-family: var(--font2);
   text-decoration: none;
-  color: var(--accent-dark);
+  color: var(--link-dark);
   font-weight: var(--font2-bold);
 }
 
 .results-search li a:hover {
-  color: var(--accent);
+  color: var(--link);
   opacity: .8;
 }
 
@@ -933,7 +937,7 @@ il margine era a 50px in card-box e l'ho messo a zero */
 
 .pagination .previous:hover, .pagination .next:hover {
   opacity: .8;
-  color: var(--accent);
+  color: var(--link);
 }
 /* = = = = = = = = = = Footer  = = = = = = = = = = */
 .main-footer {
@@ -1063,8 +1067,8 @@ il margine era a 50px in card-box e l'ho messo a zero */
   right: 40px;
 }
 .top:hover {
-  color: var(--accent);
-  border-color: var(--accent);
+  color: var(--link);
+  border-color: var(--link);
 }
 .top svg {
   display: inline-block;
@@ -1703,7 +1707,7 @@ img + small, img + br + small {
   transition: all .3s;
 }
 .newsletter .newsletter-box .subscribe-btn:hover {
-  background-color: var(--accent);
+  background-color: var(--link);
   color: white;
 }
 /* = = = = = = = = = = Author Box = = = = = = = = = = */
@@ -1765,7 +1769,7 @@ img + small, img + br + small {
 
 .contact-icons a {
     display:inline-block;
-    color: var(--accent-dark);
+    color: var(--link-dark);
     font-size: 18px;
     -webkit-transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
     transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
@@ -1838,7 +1842,7 @@ img + small, img + br + small {
 
 .contact-list a {
   display: block;
-  color: var(--accent-dark);
+  color: var(--link-dark);
   font-size: 32px;
   text-decoration: none;
   padding: 5px;
@@ -1913,7 +1917,7 @@ a.read-more {
 }
 a.read-more:hover {
     text-decoration:underline;
-        color: var(--accent);
+        color: var(--link);
 }
 /* = = = = = = = = = = Animations  = = = = = = = = = = */
 .main-header,
@@ -1995,7 +1999,7 @@ a.read-more:hover {
 .bandcamp:hover{color:#629aa9}
 .stackoverflow:hover{color:#f48024}
 .github:hover{color:var(--github)}
-.copy-link:hover{color:var(--accent)}
+.copy-link:hover{color:var(--link)}
 
 /* = = = = = = = = = = Media = = = = = = = = = = */
 /* Small Devices, Tablets */
