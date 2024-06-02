@@ -6,8 +6,8 @@ title: 13. Coronavirus
 date: 2020-04-27 01:00:00 -0600
 description: Siamo ancora nel mezzo della pandemia ma ci sono già le icone che ci porteremo dietro per anni per ricordare quello che è successo al tempo del coronavirus
 img: https://alet313.s3.eu-west-3.amazonaws.com/fotoradio/2020/wuhan3.avif
-tags: [mills, nardi, chesnot, giuliani, aldandani]
-category: podcast, cronaca
+tags: [Mills, Nardi, Chesnot, Giuliani, Aldandani]
+category: [podcast, cronaca]
 author: alessandro
 toc: yes
 ---

@@ -6,8 +6,8 @@ title: 10. L'uomo torna quadrupede
 date: 2019-10-01 01:00:00 -0600
 description: Nick Hannes a Lodi, Marina Caneve a Cortona, podcast a Ferrara e scarsità di acqua in Kenya
 img: https://alet313.s3.eu-west-3.amazonaws.com/fotoradio/2019/wissah_01.avif
-tags: [hannes, caneve, moore, wissah]
-category: news, cronaca
+tags: [Hannes, Caneve, Moore, Wissah]
+category: [news, cronaca]
 author: alessandro
 toc: yes
 ---

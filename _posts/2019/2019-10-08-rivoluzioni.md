@@ -6,8 +6,8 @@ title: 11. Rivoluzioni. Abbas, Magnum, Asfouri
 date: 2019-10-08 01:00:00 -0600
 description: Abbas e la rivoluzione iraniana del 1978; Magnum e le rivoluzioni dal 1956 al 2011; Asfouri e le proteste di Hong Kong nel 2019
 img: https://alet313.s3.eu-west-3.amazonaws.com/fotoradio/2019/asfouri.avif
-tags: [abbas, dworzak, asfouri]
-category: podcast, cronaca
+tags: [Abbas, Dworzak, Asfouri]
+category: [podcast, cronaca]
 author: alessandro
 toc: yes
 ---

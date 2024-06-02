@@ -11,11 +11,7 @@
     {% if document.show_date and document.date %}
       {% assign date = document.date %}
       <{% if include.type == "recent-item-meta" %}p{% else %}span{% endif %} class="page_meta-date">
-
-      {% assign months = "Gennaio,Febbraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,Ottobre,Novembre,Dicembre" | split: "," %}
-      {% assign month = date | date: "%-m" | minus: 1 %}
-      <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: "%-d" }} {{ months[month] }} 20{{ date | date: "%y" }}</time>
-
+        <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: "%B %-d, %Y" }}</time>
       </{% if include.type == "recent-item-meta" %}p{% else %}span{% endif %}>
     {% endif %}
     {% unless include.type == "recent-item-meta" %}

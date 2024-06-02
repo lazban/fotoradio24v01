@@ -3,15 +3,15 @@
 /* Main Color palette and fonts */
 
 html {
-  --accent:       #77966D;    /* d65461 accent  barra laterale citazione  ehover    */
+  --accent:       #2c3f87;    /* d65461 accent  barra laterale citazione  ehover    */
   --accent-dark:  #ffd983;    /* 2c3f87 titoli interni e simbolo di condivisione   */
   --main:         #bfd1e3;    /* main color solo icone in alto */
   --main-dim:     #bfd1e3;    /* dimmed version of main color */
   --text:         #ffffff;    /* cccde2 */
   --grey1:        #000000;    /* bfd1e3 colore nei box laterali sx */
   --grey2:        #77966D;    /* 2c3f87 data sotto il titolo */
-  --grey3:        #141421;    /* selettore giorno notte laterale */
-  --grey4:        #ffd983;    /* hover nella home; linea separatrice nel search  */
+  --grey3:        #bfd1e3;    /* selettore giorno notte laterale */
+  --grey4:        #77966d;    /* hover nella home; linea separatrice nel search  */
   --grey5:        #ffd983;    /* 2c3f87 background box a sx e highligh box a dx */
   --background:   #1d1e20;
   --shadow:       rgba(32,30,30,.3);
@@ -28,17 +28,17 @@ html {
 }
 
 html[data-theme="dark"]  {
-  --accent:       #d65461;    /* accent     */
-  --accent-dark:  #2c3f87;    /* accent 2   */
-  --main:         #2c3f87;    /* main color */
-  --main-dim:     #2c3f87;    /* dimmed version of main color */
-  --text:         #cccde2;
-  --grey1:        #B1B1AE;
-  --grey2:        #2c3f87;
-  --grey3:        #cccde2;
-  --grey4:        #ffd983;
-  --grey5:        #2c3f87;
-  --background:   #1d1e20;
+  --accent:       #2c3f87;    /* accent     */
+  --accent-dark:  #13262f;    /* accent 2   */
+  --main:         #43464A;    /* main color */
+  --main-dim:     #43464A;    /* dimmed version of main color */
+  --text:         #111111;
+  --grey1:        #000000;
+  --grey2:        #77966D;
+  --grey3:        #bfd1e3;
+  --grey4:        #77966d;
+  --grey5:        #ffd983;
+  --background:   #eeeeee;
   --shadow:       rgba(0,0,0,.3);
   --github:       #000;
   --bar:          #43464A;
@@ -768,7 +768,7 @@ svg.menu-icon-house {
   border-bottom: 1px solid var(--grey5);
   outline: none;
   font-size: 21px;
-  color: var(--grey1);
+  color: var(--text);
   background: var(--background);
 }
 
@@ -874,7 +874,7 @@ il margine era a 50px in card-box e l'ho messo a zero */
 
 .tag {
   text-decoration: none;
-  text-transform: uppercase;
+/*  text-transform: uppercase; */
   color: white;
   white-space: nowrap
 }
@@ -917,7 +917,7 @@ il margine era a 50px in card-box e l'ho messo a zero */
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
-  color: var(--grey1);
+  color: var(--text);
 }
 
 .pagination .previous:hover, .pagination .next:hover {
@@ -1315,7 +1315,8 @@ div.tag-cloud{
     font-family: var(--font2);
     font-weight: var(--font2-regular);
     display: block;
-    text-transform: lowercase}
+/*    text-transform: lowercase */
+}
 .tags li a:hover {
     background: var(--accent);
     color: white !important;
@@ -1843,7 +1844,7 @@ img + small, img + br + small {
 /* = = = = = = = = = = Post Lists  = = = = = = = = = = */
 .tag-master h1 {
     color: var(--grey4);
-    text-transform: lowercase;
+/*    text-transform: lowercase; */
 }
 .list-group {
   border-top: 1px solid var(--grey4);
@@ -1851,12 +1852,14 @@ img + small, img + br + small {
   margin-bottom:10px
 }
 .list-group-title {
+  color: var(--grey5);
   margin-bottom:5px;
-  font-size:.75em;
+  font-size:1.5em;
 }
 .list-group-title a {
-    color: var(--text);
-    text-transform: lowercase;
+/*    color: var(--text); */
+/*    text-transform: lowercase; */
+    color: var(--grey5);
     font-family: var(--font2);
     font-weight:var(--font2-bold);
 }
@@ -1867,8 +1870,8 @@ img + small, img + br + small {
     display: block;
     text-decoration: none;
     color:var(--main);
-    font-size:1.25em;
-    font-weight: var(--font2-light);
+    font-size:1.75em;
+    font-weight:var(--font2-bold);
     font-family:var(--font2)
 }
 .list-item a:hover {

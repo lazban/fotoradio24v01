@@ -1,0 +1,33 @@
+---
+layout: menu-page
+title: Categories
+permalink: categories:output_ext
+---
+
+{% include calculate_relative_base.html %}
+<h2 align="center">Raccolta puntate per categorie</h2>
+{% include get-site-categories.html %}
+<section class="blog-categories">
+
+  <div class="categories-page-content">
+  {% for category in site.categories %}
+    <div class="list-group">
+      <div class="list-group-title">
+        <h2>{{ category[0] }}</h2>
+      </div>
+      <div>
+      {% for post in category[1] %}{% if post.title != null %}
+      {% include remove_double_slash.html %}
+        <div class="list-item">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          {% include post_meta.html type="post-card-meta" %}
+        </div>
+        <div class="post-excerpt">
+          {{ post.content | markdownify | truncatewords: 20 }}<a class="read-more" href="{{ post_url }}"> [leggi]</a>
+        </div>
+      {% endif %}{% endfor %}
+       </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>

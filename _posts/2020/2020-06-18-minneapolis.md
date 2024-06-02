@@ -6,8 +6,8 @@ title: 15. Minneapolis
 date: 2020-06-18 01:00:00 -0600
 description: La fotografia ha documentato negli anni le lotte contro la discriminazione dei neri d'America, dagli inizi del 1900 fino ai recenti fatti di Minneapolis. Ripercorriamone alcune storie
 img: https://alet313.s3.eu-west-3.amazonaws.com/fotoradio/2020/minneapolis_articolo.avif
-tags: [wolcott, erwitt, bettmann]
-category: podcast, cronaca
+tags: [Wolcott, Erwitt, Bettmann]
+category: [podcast, cronaca]
 author: alessandro
 toc: yes
 ---
