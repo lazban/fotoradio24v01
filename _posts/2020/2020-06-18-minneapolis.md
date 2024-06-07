@@ -118,7 +118,7 @@ _Grazie di aver ascoltato questo episodio. Alla prossima!_
 In questa puntata delle Fotonews abbiamo anche dei contributi audio, tutti reperibili in forma integrale su Youtube.
 
 * un brano tratto dal discorso [_The ballot or the bullet_ di **Malcom X**, 1964](https://www.youtube.com/watch?v=GML1ketVPmU).
-</br>
+
 Il testo integrale del discorso è stato anche pubblicato in diversi libri. Io l'ho ritrovato in _I diritti dei neri d'America_, Martin Luther King, Malcom X con una prefazione di Vittorio Zucconi, allegato nel 2011 a l'Espresso per la collana _La forza delle parole: le speranze di un secolo nei discorsi dei protagonisti_.
 
 * [il racconto di **Elizebeth Eckford**](https://www.youtube.com/watch?v=CAPOvdOEYE8), una dei 9 ragazzi neri della Little Rock Central High School nel 1957
@@ -141,10 +141,3 @@ La playlist è: _Light & sounds_, _Youth in rage_, _Wipe the Slate Clean_, _Trav
 ### Fair use
 
 In questo sito si seguono le regole del **Fair use** vigenti in America per l'utilizzo di immagini di proprietà di terzi. Spiego meglio [qui](../../fair_use.html)
-
-
-- - -
-
-### Youtube
-
-{% include yt.html id="jNa35hAqPNc" %}

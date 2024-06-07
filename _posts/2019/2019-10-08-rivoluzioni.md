@@ -43,7 +43,7 @@ E poi una installazione con le fotografie della **Magnum** sui vari moti rivoluz
 
 - - -
 
-## Foto della settimana: la rivoluzione esaspera
+## Fotonews: la rivoluzione esaspera
 
 Uno scatto di Nicolas Asfouri ritrae una donna a Hong Kong che brandisce una targa con su scritto "love" ma il suo volto mostra rabbia e esasperazione.
 
@@ -53,10 +53,6 @@ Uno scatto di Nicolas Asfouri ritrae una donna a Hong Kong che brandisce una tar
 Il sito ufficiale di Asfouri è a questo -> [link](https://nicolasfouri.wixsite.com/nicolas-asfouri)
 
 - - -
-
-## Grazie!
-
-Leggi la nostra nota sul [Fair Use](../../fair_use/)
 
 
 _Grazie di aver ascoltato questo episodio. Alla prossima!_
@@ -74,3 +70,7 @@ Il tappeto sonoro delle news arriva da Freesound ed è composto da [Anechoix](ht
 ## Fair use
 
 In questo sito si seguono le regole del **Fair use** vigenti in America per l'utilizzo di immagini di proprietà di terzi. Spiego meglio [qui](../../fair_use.html)
+
+- - -
+
+{% include disclaimer_articolo.html %}

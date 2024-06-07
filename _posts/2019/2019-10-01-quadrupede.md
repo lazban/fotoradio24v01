@@ -66,7 +66,7 @@ Al festival c'è anche la possibilità di fare una visita guidata alla mostra de
 La bimba che piange viene dall'Honduras e si chiama Yanela Sanchez. La foto ritrae il momento in cui lei e sua madre, Sandra Sanchez, vengono fermate al confine USA in Texas, il 12 giugno 2018. [Qui](https://www.worldpressphoto.org/collection/photocontest/winners/2019) il link al sito del World Press Photo.
 
 
-## Foto della settimana: l'uomo torna quadrupede
+## Fotonews: l'uomo torna quadrupede
 
 La scarsità d'acqua sarà un problema. E' un problema.
 Questa foto di Frederick Dharshie Wissah è stata scattata a Kakamega in Kenya e ci lancia una provocazione: l'uomo deve regredire fino a tornare ad essere un quadrupede per sopravvivere in un mondo sempre meno ospitale?
@@ -92,3 +92,7 @@ Il tappeto sonoro delle news arriva da Freesound ed è composto da [Anechoix](ht
 ### Fair use
 
 In questo sito si seguono le regole del **Fair use** vigenti in America per l'utilizzo di immagini di proprietà di terzi. Spiego meglio [qui](/../../fair_use.html)
+
+- - -
+
+{% include disclaimer_articolo.html %}

@@ -10,6 +10,7 @@ html {
   --main:         #bfd1e3;    /* main color solo icone in alto */
   --main-dim:     #bfd1e3;    /* dimmed version of main color */
   --text:         #ffffff;    /* cccde2 */
+  --texttoc:      #00FF00;    /* cccde2 */
   --grey1:        #000000;    /* bfd1e3 colore nei box laterali sx */
   --grey2:        #77966D;    /* 2c3f87 data sotto il titolo */
   --grey3:        #bfd1e3;    /* selettore giorno notte laterale */
@@ -37,6 +38,7 @@ html[data-theme="dark"]  {
   --main:         #43464A;    /* main color */
   --main-dim:     #43464A;    /* dimmed version of main color */
   --text:         #111111;
+  --texttoc:      #00FF00;    /* cccde2 */
   --grey1:        #000000;
   --grey2:        #77966D;
   --grey3:        #bfd1e3;
@@ -1271,7 +1273,7 @@ path.fa-secondary {
   color:var(--grey1);
   font-weight:var(--font1-regular);
 }
-.toc-item-2, .toc-item-3, toc-item-4, .toc-item-5, .toc-item-6 {
+.toc-item-2, .toc-item-3, .toc-item-4, .toc-item-5, .toc-item-6 {
   padding: 8px 0px 8px;
 }
 .toc-submenu-2, .toc-submenu-3, .toc-submenu-4, .toc-submenu-5 {
